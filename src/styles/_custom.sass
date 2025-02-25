@@ -17,13 +17,19 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #D6F5FB
   &-2
-    background-color: #FFFBE8
+    background-color: #FFE1B9
   &-3
-    background-color: #F0E9F6
+    background-color: #E6F0CD
   &-4
-    background-color: #EAF8FD
+    background-color: #FFEBD0
+  &-5
+    background-color: #E2DACC
+  &-6
+    color: #496406 !important
+  &-7
+    background-color: #F6F3EF
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -41,6 +47,14 @@
 
 // Full Width Background
 .bg-full-width
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
   background-size: cover
   background-repeat: no-repeat
   background-position: bottom
@@ -51,13 +65,16 @@
 
 .bg-fondo
   &-1
-    background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.svg") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.svg") !important
+    background-position: top
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
+    background-position: top
   &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.svg") !important
     background-position: bottom
 
 // Variables
@@ -97,15 +114,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: lighten($color-secundario, 35%) !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: $color-secundario !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: lighten($color-secundario, 39%) !important
 
 
 .anexo__texto

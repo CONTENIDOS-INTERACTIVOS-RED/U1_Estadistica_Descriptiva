@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Datos estadísticos y medidas de tendencia',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,40 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Fundamentos de estadística descriptiva',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Conceptos básicos: estadística descriptiva vs. inferencial',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Importancia de la estadística en la gestión empresarial',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Tipos de datos: cualitativos y cuantitativos',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo:
+              'Fuentes de datos en las empresas (primarias y secundarias)',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Etapas del análisis estadístico',
+            hash: 't_1_5',
           },
         ],
       },
@@ -36,25 +56,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Tabulación, cuadro de frecuencias y construcción de gráficos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Tablas de frecuencias para datos agrupados y no agrupados',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Gráficos estadísticos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Principios para la visualización efectiva de datos en la empresa',
             hash: 't_2_3',
           },
         ],
@@ -63,20 +84,26 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Medidas de tendencia central y de posición',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Concepto de tendencia central',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Cálculo e interpretación de la media, mediana y moda',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Cuartiles, deciles y percentiles',
+            hash: 't_3_3',
           },
         ],
       },
@@ -118,26 +145,110 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Gamero Burón, C. (2017). Estadística I: elementos de estadística descriptiva y de teoría de la probabilidad: ( ed.). Servicio de Publicaciones y Divulgación Científica de la Universidad de Málaga.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/60724?page=1',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Llinás Solano, H. (2017). Estadística descriptiva y distribuciones de probabilidad: ( ed.). Universidad del Norte. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/70059?page=1',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Asimetría',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Falta de simetría o correspondencia exacta en la distribución de los datos respecto a un punto central.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Cuartiles',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Valores que dividen un conjunto de datos ordenados en cuatro partes iguales, cada una conteniendo el 25% de las observaciones.',
+    },
+    {
+      termino: 'Deciles',
+      significado:
+        'Valores que dividen un conjunto de datos ordenados en diez partes iguales, cada una conteniendo el 10% de las observaciones.',
+    },
+    {
+      termino: 'Dispersión',
+      significado:
+        'Grado en que los datos se alejan o varían respecto a una medida de tendencia central, como la media o la mediana.',
+    },
+    {
+      termino: 'Distribución',
+      significado:
+        'Forma en que se reparten o distribuyen los valores de una variable en un conjunto de datos.',
+    },
+    {
+      termino: 'Estadística Descriptiva',
+      significado:
+        'Rama de la estadística que se encarga de la recolección, organización, presentación y descripción de los datos.',
+    },
+    {
+      termino: 'Estadística Inferencial',
+      significado:
+        'Rama de la estadística que se enfoca en la toma de decisiones o realización de predicciones a partir de los datos analizados.',
+    },
+    {
+      termino: 'Histograma',
+      significado:
+        'Gráfico de barras que representa la distribución de una variable continua, donde cada barra representa la frecuencia de los datos en un intervalo específico.',
+    },
+    {
+      termino: '<em>Insigth</em>',
+      significado:
+        'Término en inglés que se refiere a una comprensión profunda sobre un tema, obtenida a través del análisis o la experiencia. En el contexto estadístico y empresarial, los <em>insights</em> son hallazgos o conclusiones significativas derivadas del análisis de datos, que pueden informar decisiones estratégicas o revelar oportunidades de mejora.',
+    },
+    {
+      termino: 'Intervalos de clase',
+      significado:
+        'Rangos o segmentos en los que se divide el recorrido de una variable continua para agrupar los datos en una tabla de frecuencias.',
+    },
+    {
+      termino: 'Media aritmética',
+      significado:
+        'Valor promedio de un grupo de datos, calculado como la suma de todos los valores dividida entre el número total de observaciones.',
+    },
+    {
+      termino: 'Mediana',
+      significado:
+        'Valor central de un grupo de datos ordenados, que divide la distribución en dos partes iguales.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'Valor que ocurre con mayor frecuencia en un grupo de datos.',
+    },
+    {
+      termino: 'Percentiles',
+      significado:
+        'Valores que dividen un conjunto de datos ordenados en 100 partes iguales, cada una conteniendo el 1% de las observaciones.',
+    },
+    {
+      termino: 'Polígono de frecuencia',
+      significado:
+        'Gráfico que representa la distribución de una variable continua, uniendo los puntos medios de la parte superior de cada barra de un histograma.',
+    },
+    {
+      termino: 'Rango',
+      significado:
+        'Diferencia entre el valor máximo y el valor mínimo de un conjunto de datos.',
+    },
+    {
+      termino: 'Simetría',
+      significado:
+        'Correspondencia exacta en la distribución de los datos respecto a un punto central, de modo que cada mitad es una imagen especular de la otra.',
+    },
+    {
+      termino: 'Tablas de frecuencia',
+      significado:
+        'Herramienta que permite organizar y resumir los datos de una variable, mostrando la cantidad de observaciones que corresponden a cada categoría o valor.',
+    },
+    {
+      termino: 'Variabilidad',
+      significado:
+        'Grado de dispersión o variación de los datos respecto a una medida de tendencia central.',
     },
   ],
 }
