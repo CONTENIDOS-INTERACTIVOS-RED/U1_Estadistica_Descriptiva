@@ -49,10 +49,10 @@
     p.mb-4 Veamos un ejemplo aplicado a la administración de empresas:
 
     .row.align-items-start.mb-5
-      .col-lg-4.order-2
+      .col-lg-4mb-3.mb-lg-0.order-.order-lg-2
         figure
           img(src="@/assets/curso/tema3/6.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-.order-lg-1
     
         AcordionA(tipo="b")
           .div(titulo="Primero")
@@ -91,10 +91,10 @@
     h2(data-aos="fade-left") Media aritmética
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-2.order-lg-1
         p La media aritmética, o simplemente media, es la medida de tendencia central más conocida y utilizada. Se calcula sumando todos los valores de un conjunto de datos y dividiendo el resultado entre el número total de observaciones. 
         p Su fórmula es:
         figure.mb-3
@@ -103,7 +103,7 @@
           p La principal ventaja de la media es que toma en cuenta todos los valores de la distribución. Sin embargo, es muy sensible a los valores extremos o atípicos, que pueden sesgar o distorsionar el resultado.
         p <b>Interpretación:</b> la media representa el valor promedio de un conjunto de datos. En términos prácticos, si repartieran equitativamente la suma total de los valores entre todas las observaciones, cada una recibiría la cantidad de la media.
     
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
@@ -160,7 +160,7 @@
           p.mb-0 La mediana es una medida robusta, dado que no se ve afectada por los valores extremos. Es preferible a la media cuando la distribución es muy asimétrica o hay valores atípicos.
     p.mb-5 <b>Interpretación:</b> la mediana divide un conjunto de datos en dos partes iguales, de modo que el 50 % de las observaciones son menores o iguales a la mediana, y el otro 50 % son mayores o iguales.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
@@ -251,7 +251,7 @@
     
     p.mb-4 Una vez que hemos visto las medidas de tendencia central, pasemos a las medidas de posición. Estas nos permiten ubicar un valor en relación con el resto de los datos, dividiendo la distribución en partes iguales. Las medidas de posición más comunes son los cuartiles, los deciles y los percentiles.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
@@ -290,7 +290,7 @@
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema3/17.svg" alt="" style="width: 90px")
               p.mb-0.text-center Siempre es importante considerar el contexto y las unidades de medida al interpretar estas medidas de posición.
 
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0
@@ -330,10 +330,10 @@
     p.mb-4 Pero quizás lo más importante es que estas herramientas nos permiten hacer preguntas más precisas y obtener respuestas más significativas de nuestros datos. En lugar de simplemente preguntar "¿cuál es el promedio?", podemos preguntar "¿cómo se compara este valor con el resto de la distribución?" o "¿cuánta variabilidad hay en el 50 % central de los datos?".
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema3/21.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-2.order-lg-1
         .bg-color-3.p-4.mb-3(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
@@ -385,15 +385,15 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://proyectodescartes.org/iCartesiLibri/materiales_didacticos/IntroduccionEstadisticaProbabilidad/4ESO/Estadistica/5MedidasCentralizacionPosicion.html" target="_blank" rel="noopener noreferrer") Proyecto Descartes. (s. f.). Medidas de centralización y posición. En Introducción a la estadística y probabilidad. Recuperado el 27 de enero de 2025, de 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-
+            
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/MP8ZWIUeOBs" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2020, 26 de julio). Medidas de tendencia central [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/ZU_zsIEY0hs" target="_blank" rel="noopener noreferrer") Danstein. (2023, 14 de mayo). Cuartiles, deciles y percentiles para datos agrupados [Video]. YouTube.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

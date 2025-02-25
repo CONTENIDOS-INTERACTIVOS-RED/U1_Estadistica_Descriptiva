@@ -145,13 +145,28 @@ export default {
   referencias: [
     {
       referencia:
-        'Gamero Burón, C. (2017). Estadística I: elementos de estadística descriptiva y de teoría de la probabilidad: ( ed.). Servicio de Publicaciones y Divulgación Científica de la Universidad de Málaga.',
+        'Gamero Burón, C. (2017). Estadística I: elementos de estadística descriptiva y de teoría de la probabilidad: ( ed.). Servicio de Publicaciones y Divulgación Científica de la Universidad de Málaga. ',
       link: 'https://elibro.net/es/ereader/tecnologicadeloriente/60724?page=1',
     },
     {
       referencia:
         'Llinás Solano, H. (2017). Estadística descriptiva y distribuciones de probabilidad: ( ed.). Universidad del Norte. ',
       link: 'https://elibro.net/es/ereader/tecnologicadeloriente/70059?page=1',
+    },
+    {
+      referencia:
+        'Puente Viedma, C. D. L. (2018). Estadística descriptiva e inferencial: ( ed.). Ediciones IDT. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/59931?page=1',
+    },
+    {
+      referencia:
+        'Romero Ramos, E. (2016). Estadística para todos: análisis de datos: estadística descriptiva, teoría de la probabilidad e inferencia: ( ed.). Difusora Larousse - Ediciones Pirámide. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/49136?page=1',
+    },
+    {
+      referencia:
+        'Proaño Rivera, W. B. (2020). Estadística descriptiva e inferencial: (1 ed.). Universidad del Azuay. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/233574?page=1',
     },
   ],
   glosario: [

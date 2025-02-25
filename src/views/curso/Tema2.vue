@@ -16,10 +16,10 @@
       h2 #[span 2.1] Tablas de frecuencias para datos agrupados y no agrupados
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-1.order-lg-1
         p(data-aos="fade-left") Se continúa con el estudio de la tabulación de datos, donde una tabla de frecuencias se puede definir como una herramienta que permite organizar y resumir los datos de una variable, mostrando la cantidad de observaciones que corresponden a cada categoría o valor. Las tablas de frecuencias pueden ser para datos no agrupados, cuando la variable tiene pocos valores distintos, o para datos agrupados, cuando la variable tiene muchos valores y se requiere agruparlos en intervalos (Llinás Solano, 2017).
         p(data-aos="fade-left") Romero Ramos (2016) explica que:
 
@@ -36,7 +36,7 @@
           .div(titulo="Una tabla de frecuencias para datos agrupados")
             p Presenta los intervalos de clase en la primera columna, y las frecuencias absolutas, relativas y acumuladas en las siguientes columnas.
           
-    .bg-full-width.bg-color-5.mb-lg-5
+    .bg-full-width.bg-color-5.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0
@@ -157,10 +157,10 @@
               p.mb-0 Un polígono de frecuencia mostraría la forma de la distribución de los niveles de satisfacción, permitiendo ver que la distribución es asimétrica hacia la derecha (niveles altos de satisfacción).
     
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/11.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0
+      .col-lg-8
         p(data-aos="fade-left") Además, si se quisiera analizar la relación entre el nivel de satisfacción y otra variable, como la antigüedad del cliente o el plan contratado, se podría utilizar un diagrama de dispersión. Por ejemplo, se podría graficar el nivel de satisfacción en el eje Y, y la antigüedad en meses en el eje X, donde cada punto representaría a un cliente. Esto permitiría ver si existe una relación positiva (a mayor antigüedad, mayor satisfacción), negativa (a mayor antigüedad, menor satisfacción) o nula entre las variables.
         .bg-color-3.p-4.mb-3(data-aos="fade-left")
           .row.align-items-start
@@ -270,15 +270,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica/pages/1-3-frecuencia-tablas-de-frecuencia-y-niveles-de-medicion" target="_blank" rel="noopener noreferrer") OpenStax. (s. f.). Frecuencia, tablas de frecuencia y niveles de medición. En Introducción a la estadística. Recuperado el 27 de enero de 2025, de
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://doi.org/10.13042/Bordon.2022.94121" target="_blank" rel="noopener noreferrer") González Sánchez, D., Cox, F. T., Magreñán, Á. A., & Orcos, L. (2022). Enseñanza de estadística descriptiva mediante el uso de simuladores y laboratorios virtuales en la etapa universitaria. Bordón. Revista de Pedagogía, 74(4), 103-123. 
+
+      
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/eFwNKbiDqOo" target="_blank" rel="noopener noreferrer") As Al. (2015, 3 de julio). Tabla de frecuencia con datos agrupados (cómo realizarlo) [Video]. YouTube. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/eFwNKbiDqOo" target="_blank" rel="noopener noreferrer") As Al. (2015, 3 de julio). Tabla de frecuencia con datos agrupados (cómo realizarlo) [Video]. YouTube. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

@@ -16,10 +16,10 @@
       h2 #[span 1.1] Conceptos básicos: estadística descriptiva vs. inferencial
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
         .bg-color-3.p-4.mb-3(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
@@ -229,10 +229,10 @@
               p.mb-0.text-center En la etapa de interpretación de resultados, se extraen conclusiones, se hacen recomendaciones y se comunican los hallazgos a los interesados.
     
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema1/24.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.mb-3.mb-lg-0.order-2.order-lg-1
         .bg-color-3.p-4.mb-5(data-aos="fade-left")
             p.mb-0 Gamero Burón (2017) enfatiza que el análisis estadístico es un proceso iterativo, en el que se pueden revisar y ajustar las etapas anteriores a medida que se obtienen datos recientes o se plantean nuevas preguntas de investigación. Además, destaca la importancia de la comunicación efectiva de los resultados, utilizando un lenguaje claro y accesible para los diferentes públicos, como directivos, empleados o clientes.
         p(data-aos="fade-left") Por ejemplo, en un análisis estadístico para evaluar la eficiencia de un proceso productivo en una empresa manufacturera, se podrían seguir las siguientes etapas:
@@ -285,15 +285,28 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://rea.ceibal.edu.uy/rea/estadistica-descriptiva " target="_blank" rel="noopener noreferrer") Este recurso educativo abierto ofrece una introducción a la estadística descriptiva, brindando herramientas esenciales para interpretar datos de forma clara y efectiva, aplicando estos conocimientos a situaciones reales. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://rea.ceibal.edu.uy/rea/estadistica-descriptiva" target="_blank" rel="noopener noreferrer") Ceibal. (n.d.). Estadística descriptiva. REA Ceibal. Recuperado el 27 de enero de 2025, de
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://editorial.ucatolicaluisamigo.edu.co/index.php/editorial/catalog/book/31" target="_blank" rel="noopener noreferrer") Este texto soporta los conceptos generales de la estadística descriptiva, incluyendo temas como muestreo, ordenación de datos, representación gráfica y medidas de tendencia central, de posición, de dispersión y de forma. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://editorial.ucatolicaluisamigo.edu.co/index.php/editorial/catalog/book/31" target="_blank" rel="noopener noreferrer") Posada Hernández, G. J. (n.d.). Elementos básicos de estadística descriptiva para el análisis de datos. Editorial Católica Luis Amigó. Recuperado el 27 de enero de 2025, de
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://proyectodescartes.org/descartescms/matematicas/telesecundaria/item/2031-simulacion-experimentos-estadisticos" target="_blank" rel="noopener noreferrer") Proyecto Descartes. (s. f.). Simulación de experimentos estadísticos. Recuperado el 27 de enero de 2025, de 
+
+           
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2020, 9 de agosto). Estadística descriptiva [Video]. YouTube.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/Z2TTBtZjNk0" target="_blank" rel="noopener noreferrer") Santiav2004. (2013, 11 de abril). Variables cuantitativas y cualitativas [Video]. YouTube.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

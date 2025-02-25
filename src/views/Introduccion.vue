@@ -6,10 +6,10 @@
     p.mb-4 La estadística descriptiva es una herramienta clave en la gestión empresarial, dado que permite recopilar, organizar, analizar e interpretar datos para tomar decisiones informadas. En esta unidad, se presentarán los conceptos fundamentales de la estadística descriptiva, incluyendo la definición de datos estadísticos, los diferentes tipos de datos y las fuentes de información. También se examinará la tabulación de datos, la creación de cuadros de frecuencias y gráficos, así como las medidas de tendencia central y de posición.
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-4.mb-3.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/intro/2.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0.order-1
+      .col-lg-8.order-2.order-lg-1
         .bg-color-1.p-4.mb-3(data-aos="fade-left")
           .row.align-items-start
             .col-lg-auto
