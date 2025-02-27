@@ -49,10 +49,10 @@
     p.mb-4 Veamos un ejemplo aplicado a la administración de empresas:
 
     .row.align-items-start.mb-5
-      .col-lg-4mb-3.mb-lg-0.order-.order-lg-2
+      .col-lg-4.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema3/6.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-.order-lg-1
+      .col-lg-8.order-lg-1
     
         AcordionA(tipo="b")
           .div(titulo="Primero")
