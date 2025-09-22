@@ -431,12 +431,12 @@ export default {
               {
                 id: 'b',
                 texto: 'La recopilación, organización y presentación de datos',
-                esCorrecta: true,
+                esCorrecta: false,
               },
               {
                 id: 'c',
                 texto: 'La relación entre variables económicas',
-                esCorrecta: false,
+                esCorrecta: true,
               },
               {
                 id: 'd',

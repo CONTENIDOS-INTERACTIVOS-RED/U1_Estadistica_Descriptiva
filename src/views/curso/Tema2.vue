@@ -282,7 +282,7 @@
               a(href="https://youtu.be/eFwNKbiDqOo" target="_blank" rel="noopener noreferrer") As Al. (2015, 3 de julio). Tabla de frecuencia con datos agrupados (cómo realizarlo) [Video]. YouTube. 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/eFwNKbiDqOo" target="_blank" rel="noopener noreferrer") As Al. (2015, 3 de julio). Tabla de frecuencia con datos agrupados (cómo realizarlo) [Video]. YouTube. 
+              a(href="https://youtu.be/9G4HPNVA5w4?si=g7FXqTzdof4xLPne " target="_blank" rel="noopener noreferrer") Matemáticas profe A. (2021).  Tipos de gráficos estadísticos [Video]. YouTube
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

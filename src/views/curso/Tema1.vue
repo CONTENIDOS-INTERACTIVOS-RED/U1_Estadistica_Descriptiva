@@ -285,9 +285,6 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://rea.ceibal.edu.uy/rea/estadistica-descriptiva " target="_blank" rel="noopener noreferrer") Este recurso educativo abierto ofrece una introducción a la estadística descriptiva, brindando herramientas esenciales para interpretar datos de forma clara y efectiva, aplicando estos conocimientos a situaciones reales. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://rea.ceibal.edu.uy/rea/estadistica-descriptiva" target="_blank" rel="noopener noreferrer") Ceibal. (n.d.). Estadística descriptiva. REA Ceibal. Recuperado el 27 de enero de 2025, de
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
@@ -303,7 +300,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2020, 9 de agosto). Estadística descriptiva [Video]. YouTube.
+              a(href="https://youtu.be/XR90LXvQKTw?si=w-4pdWZzBv2wiiOM" target="_blank" rel="noopener noreferrer") GOAL PROJECT. (2020, 9 de agosto). Estadística descriptiva [Video]. YouTube.
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/Z2TTBtZjNk0" target="_blank" rel="noopener noreferrer") Santiav2004. (2013, 11 de abril). Variables cuantitativas y cualitativas [Video]. YouTube.  
